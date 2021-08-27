@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- *program started with main function
+ * main - accepts arguments
+ *
+ * return: prints zero
  */
 int main(void)
 {

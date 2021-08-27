@@ -2,7 +2,7 @@
 /**
  * main - accepts arguments
  *
- * return: prints zero
+ * Return: returns the sentence
  */
 int main(void)
 {

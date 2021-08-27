@@ -4,6 +4,7 @@
  *
  * Return: returns zero value at the end
  */
+int main(void)
 {
 printf("Size of a char: %2d byte(s) \n", sizeof(char));
 printf("Size of an int: %2d byte(s) \n", sizeof(int));

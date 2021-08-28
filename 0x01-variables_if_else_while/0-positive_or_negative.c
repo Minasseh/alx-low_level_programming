@@ -10,7 +10,6 @@
 int main(void)
 {
   int n;
-
   printf("%2d is positive\n",n>0);
   printf("%2d is zero\n",n==0);
   printf("%2d is negative\n",n<0);

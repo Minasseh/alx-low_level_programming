@@ -10,8 +10,12 @@
 int main(void)
 {
   int n;
+  srand(time(0));
+  n = rand() - RAND_MAX / 2;
   printf("%2d is positive\n",n>0);
   printf("%2d is zero\n",n==0);
-  printf("%2d is negative\n",n<0);
+  printf("%2d is negative\n",n<0);{
+    putchar('n');
+    }
   return (0);
 }

@@ -8,7 +8,7 @@ int main(void)
 {
 char alph;
 for (alph = 'a'; alph <= 'z'; alph++)
-putchar(alph); | grep eq
+putchar(alph);
 putchar('\n');
 return (0);
-}
+} | grep -i eq

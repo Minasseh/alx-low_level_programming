@@ -8,6 +8,6 @@ int main(void)
 {
 char alpha = 'a';
 for (alpha = 'a'; alpha <= 'z'; alpha++)
-putchar(alpha\n);
+putchar(alpha)\n;
 return (0);
 }

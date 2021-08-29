@@ -16,7 +16,6 @@ int main(void)
 
   n = rand() - RAND_MAX / 2;
 
-  for(n>0; n<0)
     {
   printf("%2d is positive\n",n>0);
   printf("%2d is zero\n",n=0);

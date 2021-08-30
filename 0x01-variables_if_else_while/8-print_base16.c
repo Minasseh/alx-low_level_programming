@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-  char digit;
+char hexa;
 
-  for (digit = '0'; digit <= '9'; digit++)
-    putchar(digit);
+for (hexa = '0'; hexa <= '9'; hexa++)
+    putchar(hexa);
 
-  for (digit = 'a'; digit <= 'f'; digit++)
-    putchar(digit);
+for (hexa = 'a'; hexa <= 'f'; hexa++)
+    putchar(hexa);
 
-  putchar('\n');
+putchar('\n');
 
   return (0);
 }

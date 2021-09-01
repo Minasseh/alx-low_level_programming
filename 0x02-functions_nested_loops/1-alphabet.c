@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
+ * print_alphabet - prints alphabet in lowercase
  *
  * Return: Always 0.
  */

@@ -1,0 +1,9 @@
+#include <stdio.h>
+/**
+ * main - shows sizes of different characters
+ *
+ * Return: returns zero value at the end
+ */
+{
+printf("size of a char: %2d byte(s) \n", sizeof(char));
+printf("size of an int: %2d byte(s) \n", sizeof(int));

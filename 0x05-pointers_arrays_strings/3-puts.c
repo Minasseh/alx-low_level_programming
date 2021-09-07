@@ -8,5 +8,5 @@
 void _puts(char *str)
 {
   str = " ";
-  return (str);
+  _puts(str);
 }

@@ -1,0 +1,6 @@
+#include "main"
+
+/**
+ * factorial - re factorial of a number
+ * @
+ * Return: factorial of n

@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ * _power_recursion - returns @x power to @y
+ * @x: integer x
+ * @y: integer y
+ * Return: The result returned
+ */
+
+int _pow_recursion(int x, int y)
+{
+  int result = n;
+  if (y < 0)
+    {
+      return (-1);
+    }

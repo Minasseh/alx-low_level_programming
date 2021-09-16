@@ -10,9 +10,13 @@ int factorial(int n)
 {
   int fact;
   int i;
-  fact = n * (n - 1);
+  i = 1;
+  fact = 1;
   while(i <= n)
+    {
+      fact = (n * i);
     i++;
+    }
   if (n == 0)
     {
       return (1);
@@ -21,4 +25,4 @@ int factorial(int n)
     {
       return (-1);
     }
-  return (n * factorial(n - 1));
+  return (fact);

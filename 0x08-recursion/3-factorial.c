@@ -8,6 +8,11 @@
 
 int factorial(int n)
 {
+  int fact;
+  int i;
+  fact = n * (n - 1);
+  while(i <= n)
+    i++;
   if (n == 0)
     {
       return (1);

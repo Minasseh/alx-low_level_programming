@@ -1,5 +1,3 @@
-#include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - function that helps to find number of arguments

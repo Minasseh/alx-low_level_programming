@@ -8,7 +8,7 @@
  * Return: returns zero value
  */
 
-int main(int argc, char (__atribute__((__unsigned__)) *argv[])
+int main(int argc, char __attribute__((__unsigned__)) *argv[])
 {
   printf("%d\n", argc - 1);
   return 0;

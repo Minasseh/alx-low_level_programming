@@ -5,6 +5,10 @@
  * main - multiplys two numbers
  * @argc: number of arguments
  * @argv: array of arguments
+ * @num1: no. at arg[1]
+ * @num2: no. at argv[2]
+ * @result: the product
+ *
  * Return: returns results
  */
 

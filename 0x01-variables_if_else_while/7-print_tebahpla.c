@@ -4,11 +4,16 @@
  *
  * Return: returns zero
  */
+
 int main(void)
 {
-int alph;
-for (alph = 'z'; alph >= 'a'; --alph)
-putchar(alph);
-putchar('\n');
-return (0);
+	int alph;
+
+	for (alph = 'z'; alph >= 'a'; --alph)
+
+		putchar(alph);
+
+	putchar('\n');
+
+	return (0);
 }

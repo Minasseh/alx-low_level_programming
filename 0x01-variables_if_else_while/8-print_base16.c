@@ -5,17 +5,20 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char hexa;
+	char hexa;
 
-for (hexa = '0'; hexa <= '9'; hexa++)
-putchar(hexa);
+	for (hexa = '0'; hexa <= '9'; hexa++)
 
-for (hexa = 'a'; hexa <= 'f'; hexa++)
-putchar(hexa);
+		putchar(hexa);
 
-putchar('\n');
+	for (hexa = 'a'; hexa <= 'f'; hexa++)
 
-return (0);
+		putchar(hexa);
+
+	putchar('\n');
+
+	return (0);
 }

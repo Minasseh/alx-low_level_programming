@@ -4,11 +4,16 @@
  *
  * Return: returns zero value
  */
+
 int main(void)
 {
-int nu;
-for (nu = '0'; nu <= '9'; nu++)
-putchar(nu);
-putchar('\n');
-return (0);
+	int nu;
+
+	for (nu = '0'; nu <= '9'; nu++)
+
+		putchar(nu);
+
+	putchar('\n');
+
+	return (0);
 }

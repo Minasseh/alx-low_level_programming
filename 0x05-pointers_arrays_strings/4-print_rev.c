@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 
 	while (s[index] != '\0')
-		len++;
+		index++;
 
 	len = index;
 

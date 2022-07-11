@@ -4,15 +4,21 @@
  * print_rev - Prints a string in reverse.
  * @s: The string to be printed.
  */
+
 void print_rev(char *s)
 {
-int len = 0, index;
 
-while (s[index++])
-len++;
+	int len = 0, index, j;
 
-for (index = len - 1; index >= 0; index--)
-_putchar(s[index]);
 
-_putchar('\n');
+	while (s[index++])
+		len++;
+
+	len = i;
+
+	for (j = i - 1; j >= 0; j--)
+
+		_putchar(s[j]);
+
+	_putchar('\n');
 }

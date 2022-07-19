@@ -2,9 +2,9 @@
 
 /**
  * _memset - sets constant byte b in memory
- * @s - pointes s
- * @b - constant b
- * @n - number
+ * @s: - pointes s
+ * @b: - constant b
+ * @n: - number
  * Return: returns the value
  */
 

@@ -1,1 +1,0 @@
-This is a readme of structures and typedef

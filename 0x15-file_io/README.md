@@ -1,1 +1,0 @@
-This is a read me of the project File I/O
